@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navBar{
+    display: inline;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+.menuIcon{
+    height: 30px;
+    margin-left: 50px;
+}
+.logo{
+    height: 30px;
+    margin-left: 30px;
+}
+.search{
+    width: 35%;
+    height: 35px;
+    border-color: whitesmoke;
+    border-style: solid;
+    margin-left: 20%;
+    border-width: 1px;
+}
+.searchBtn{
+    height: 39px;
+    width: 4%;
+    border-color: whitesmoke;
+    border-style: solid;
+    background-color: whitesmoke;
+    border-width: 1px;
+}
+.mic{
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin-left: 1%;
+}
+.main{
+    width: 100%;
+    height: 90vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+.playingVideo{
+    height: 75vh;
+    width: 60%;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.nextVideo{
+    height: 100vh;
+    width: 25%;
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    overflow-y: scroll;
+}
+.buttons button{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: whitesmoke;
+    border-style: solid;
+    background-color: whitesmoke;
+    border-width: 2px;
+    cursor: pointer;
+}
